@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frases Motivacionales</title>
+</head>
+<body>
+  <button onclick="obtenerFrase()">Obtener frase</button>
+  <p id="frase"></p>
+
+  <script>
+    function obtenerFrase() {
+      fetch('/.netlify/functions/frase')
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('frase').innerText = data.frase;
+        });
+    }
+  </script>
+</body>
+</html>
