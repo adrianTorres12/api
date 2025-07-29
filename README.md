@@ -1,4 +1,4 @@
-# ✨ API de Frases Motivacionales
+# ✨ InspireAPI
 
 Esta es una API sencilla que devuelve frases motivacionales al azar. Fue desarrollada con **Netlify Functions (serverless)** y puede ser consumida por cualquier sitio web, app o herramienta como ToolJet.
 
