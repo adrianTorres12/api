@@ -39,7 +39,7 @@ motivacion-api/
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/motivacion-api.git
+[git clone https://github.com/tu-usuario/motivacion-api.git](https://github.com/adrianTorres12/api.git)
 cd motivacion-api
 ```
 
